@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.crypto88.RunCucumberTest" time="175.478" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\pored\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing\target\test-classes;C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing\target\classes;C:\Users\pored\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\pored\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\pored\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\pored\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\pored\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.2.3\cucumber-junit-platform-engine-7.2.3.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\pored\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite\1.8.2\junit-platform-suite-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.2\junit-platform-suite-api-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.2\junit-platform-suite-engine-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.2\junit-platform-suite-commons-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\pored\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\pored\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\pored\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\pored\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\pored\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\pored\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pored\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\pored\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pored\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pored\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pored\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pored\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pored\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pored\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pored\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pored\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pored\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pored\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pored\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\pored\AppData\Local\Temp\surefire3185634514147358969\surefirebooter7765464839792944136.jar C:\Users\pored\AppData\Local\Temp\surefire3185634514147358969 2024-02-22T13-15-23_264-jvmRun1 surefire4773236309949165517tmp surefire_04920030449320452528tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing\target\test-classes;C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing\target\classes;C:\Users\pored\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\pored\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\pored\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\pored\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\pored\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\pored\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pored\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.2.3\cucumber-junit-platform-engine-7.2.3.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\pored\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite\1.8.2\junit-platform-suite-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.2\junit-platform-suite-api-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.2\junit-platform-suite-engine-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.2\junit-platform-suite-commons-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\pored\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\pored\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\pored\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\pored\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\pored\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\pored\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\pored\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\pored\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\pored\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\pored\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pored\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pored\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\pored\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pored\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pored\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pored\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pored\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pored\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pored\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pored\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pored\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pored\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pored\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pored\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pored\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pored\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pored"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pored\AppData\Local\Temp\surefire3185634514147358969\surefirebooter7765464839792944136.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="pored"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pored\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pored\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\pored\OneDrive\Desktop\ll\crypto88_automation_testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17;C:\Program Files\Docker\Docker\resources\bin;C:\bin\terraform_1.4.5_windows_386;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\apache-maven-3.9.5\bin;C:\nssm-2.24\win64;C:\Users\pored\AppData\Local\Microsoft\WindowsApps;C:\Users\pored\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pored\AppData\Roaming\npm;C:\bin;C:\Program Files\Java\jdk-17\bin;C:\bin\terraform_1.4.5_windows_386;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\apache-maven-3.9.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify URL Navigation" classname="Testing URL Navigation" time="34.106">
+    <system-out><![CDATA[
+Scenario: Verify URL Navigation                                                  &amp#27;[90m# com/crypto88/BrowserNavigation.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open Chrome browser&amp#27;[0m                                                    &amp#27;[90m# com.crypto88.BrowserNavigationSteps.iOpenChromeBrowser()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"http://iqhqsolutionsdev.ddns.net:8082/"&amp#27;[0m                    &amp#27;[90m# com.crypto88.BrowserNavigationSteps.navigateToURL(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe current URL should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"http://iqhqsolutionsdev.ddns.net:8082/#/index"&amp#27;[0m &amp#27;[90m# com.crypto88.BrowserNavigationSteps.verifyBrowserURL(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 52041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:15:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 11913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:15:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 51287
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:15:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 64503
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:15:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Checking Signup Page with Logos" classname="Indexfooter Functionality" time="25.06">
+    <system-out><![CDATA[
+Scenario: Checking Signup Page with Logos                 &amp#27;[90m# com/crypto88/IndexFooter.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI opened the URL and scrolled to the end&amp#27;[0m          &amp#27;[90m# com.crypto88.Indexfooter.i_opened_the_url_and_scrolled_to_the_end()&amp#27;[0m
+Logo: fa fa-facebook
+Logo: fa fa-youtube
+Logo: fa fa-linkedin
+Logo: fa fa-twitter
+Logo: fa fa-camera
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI print all logos present in the bottom footer&amp#27;[0m     &amp#27;[90m# com.crypto88.Indexfooter.i_print_all_logos_present_in_the_bottom_footer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI verify all logos are present in the bottom footer&amp#27;[0m &amp#27;[90m# com.crypto88.Indexfooter.i_verify_all_logos_are_present_in_the_bottom_footer()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 30650
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 14412
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 27019
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Tabs should redirect to login page" classname="SwitchTabs Before Login Steps" time="50.558">
+    <system-out><![CDATA[
+Scenario: Tabs should redirect to login page   &amp#27;[90m# com/crypto88/SwitchTabsBeforeLogin.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the application's main page&amp#27;[0m &amp#27;[90m# com.crypto88.SwitchTabsBeforeLoginSteps.user_is_on_the_applications_main_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser switches between different tabs&amp#27;[0m    &amp#27;[90m# com.crypto88.SwitchTabsBeforeLoginSteps.user_switches_between_different_tabs(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Dashboard  |
+    | Wallets    |
+    | Insight    |
+    | Strategies |
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 49351
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 46340
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 30700
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:16:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Switching between tabs after login" classname="Switch Tabs after Login" time="53.552">
+    <system-out><![CDATA[
+Scenario: Switching between tabs after login             &amp#27;[90m# com/crypto88/SwitchTabsOnHomePage.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Application_URL in Chrome&amp#27;[0m             &amp#27;[90m# com.crypto88.SwitchTabsSteps.openApplicationURL()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on login_tab&amp#27;[0m                               &amp#27;[90m# com.crypto88.SwitchTabsSteps.clickOnLoginTab()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter a valid email_address &amp#27;[0m&amp#27;[32m&amp#27;[1m"crypto88@gmail.com"&amp#27;[0m &amp#27;[90m# com.crypto88.SwitchTabsSteps.enterValidEmail(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter a valid_password &amp#27;[0m&amp#27;[32m&amp#27;[1m"crypto88"&amp#27;[0m                &amp#27;[90m# com.crypto88.SwitchTabsSteps.enterValidPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on Login_button&amp#27;[0m                            &amp#27;[90m# com.crypto88.SwitchTabsSteps.clickLoginButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI wait &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m_seconds&amp#27;[0m                                   &amp#27;[90m# com.crypto88.SwitchTabsSteps.i_wait_for_seconds(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser switches between_different_tabs&amp#27;[0m               &amp#27;[90m# com.crypto88.SwitchTabsSteps.user_switches_between_different_tabs(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Tab Name   | Expected URL                                                     |
+    | Wallets    | http://iqhqsolutionsdev.ddns.net:8082/#/wallet                   |
+    | Insight    | http://iqhqsolutionsdev.ddns.net:8082/#/insights                 |
+    | Strategies | http://iqhqsolutionsdev.ddns.net:8082/#/strategy-recommendations |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser closes the application&amp#27;[0m                        &amp#27;[90m# com.crypto88.SwitchTabsSteps.user_closes_the_application()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 57084
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:17:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 47491
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:17:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 5247
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:17:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Addition" classname="basic math" time="11.473">
+    <system-out><![CDATA[
+Scenario: Addition           &amp#27;[90m# com/crypto88/basic_math.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mx=&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                  &amp#27;[90m# com.crypto88.StepDefinitions.x(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32my=&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                    &amp#27;[90m# com.crypto88.StepDefinitions.y(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mx and y are added&amp#27;[0m     &amp#27;[90m# com.crypto88.StepDefinitions.x_and_y_are_added()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe value should be &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m &amp#27;[90m# com.crypto88.StepDefinitions.the_value_should_be(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 36518
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:18:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 29419
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:18:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 11148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2024 1:18:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

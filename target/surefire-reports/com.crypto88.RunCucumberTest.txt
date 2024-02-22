@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.crypto88.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 175.478 s - in com.crypto88.RunCucumberTest
